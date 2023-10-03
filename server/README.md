@@ -30,4 +30,4 @@ Run the tests
 npm run test
 ```
 
-![Running tests](/media/images/server/server_running_tests.png)
+![Running the tests](/media/images/server/server_running_tests.png)
