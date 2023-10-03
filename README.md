@@ -24,16 +24,10 @@ Before you can run the applications using Docker Compose, make sure you have the
 
 ### Running the Applications
 
-Using built images (recommended/faster)
-
-```
-docker compose -f compose.yaml up -d
-```
-
 Building images from source code
 
 ```
-docker compose -f compose.prod.yaml up -d
+docker compose -f compose.yaml up -d
 ```
 
 This command will build and start the Express.js API and Next.js app in separate containers, exposing them on the specified ports, run a mongodb instance and seed the db.
