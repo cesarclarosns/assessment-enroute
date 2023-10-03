@@ -3,12 +3,16 @@ version: "3.8"
 services:
   client:
     container_name: client
-    image: cesarclarosns/assessment-enroute-client
+    build:
+      context: client
+      dockerfile: Dockerfile
     ports:
       - 3000:3000
   server:
     container_name: server
-    image: cesarclarosns/assessment-enroute-server
+    build:
+      context: server
+      dockerfile: Dockerfile
     depends_on:
       - db
     restart: unless-stopped
