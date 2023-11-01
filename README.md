@@ -1,4 +1,4 @@
-# Assesment
+# Assessment
 
 ![App](/media/images/app.gif)
 
